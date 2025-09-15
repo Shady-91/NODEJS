@@ -8,5 +8,16 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.12.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shady-91/NODEJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Shady-91/NODEJS/issues"
+  },
+  "homepage": "https://github.com/Shady-91/NODEJS#readme"
 }
