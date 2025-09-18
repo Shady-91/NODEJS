@@ -1,9 +1,7 @@
 const axios = require('axios');
 
-axios.get('https://api.example.com/data')
-      .then(response => {
-            console.log(response.data);
-      })
-      .catch(error => {
-            console.error(error);
-      });
+function getData() {
+      return axios.get('https://jsonplaceholder.typicode.com/todos/1');
+}
+
+module.exports = getData;
